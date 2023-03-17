@@ -1,5 +1,7 @@
 # CSS
 
+
+### 메모
 - margin = 바깥쪽 여백 
 - border = 테두리
 - padding = 안쪽 여백
@@ -14,3 +16,7 @@
 - active : 활성화 시켰을 때
 - font-weight : font 굵기
 - border-radius : 테두리 둥글게
+---------
+- class = "class1 class2" 예시는 공통 css를 할 때 많이 사용. 협업에는 불편하나 유지보수에는 좋다
+- CSS는 ID 보다는 Class 로 관리하는 편이 좋다
+- !important = CSS는 같은 속성을 여러 번 정의했을 때, 나중에 설정한 값이 적용된다. 만약 나중에 설정한 값이 적용되지 않게 하려면 속성값 뒤에 !important를 붙인다. (디버깅이 어려워서 사용을 권장하지 않는다.)
